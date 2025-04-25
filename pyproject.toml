@@ -1,0 +1,15 @@
+[project]
+name = "hackathon-brainstormer-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[tools]>=0.95.0",
+    "firecrawl-py>=2.3.0",
+    "google-adk>=0.3.0",
+    "langchain-community>=0.3.22",
+    "litellm>=1.67.2",
+    "mcp>=1.6.0",
+    "setuptools>=79.0.1",
+]
